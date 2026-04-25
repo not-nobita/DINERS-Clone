@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Diners Official Online Store</title>
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color: rgb(218, 218, 218); padding: 10px;">
+        <div class="container-fluid" style="display: flex; align-items: center; gap: 15px;">
+            <select class="form-select" aria-label="default-select-example"
+                style=" background-color: rgb(218, 218, 218); width: 5%; border: none; box-shadow: none; margin-left: 20px;">
+                <option selected="PK">PK</option>
+                <option value="1">EUR</option>
+                <option value="2">GBP</option>
+                <option value="3">CHF</option>
+            </select>
+            <i class="fa-solid fa-arrows-turn-to-dots" style="display: flex; gap: 7px;"><a href=""
+                    style=" width: 100%; display: flex; text-decoration: none; color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; ">
+                    Return
+                    & Exchange</a></i>
+            <i class="fa-solid fa-location-dot" style=" color: black; display: flex; gap: 7px;"><a href=""
+                    style="width: 100%; color: black; display: flex; text-decoration: none; font-family: Verdana, Geneva, Tahoma, sans-serif; ">Store
+                    Locator</a></i>
+            <i class="fas fa-shipping-fast" style="display: flex; gap: 7px;"><a href=""
+                    style="width: 100%; display: flex; text-decoration: none; color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; ">Order
+                    Tracking</a></i>
+        </div>
+    </div>
+    <div class="container-fluid d-flex">
+        <div class="container-fluid col-sm-4"></div>
+        <div class="container-fluid col-sm-4"
+            style="display: flex; text-align: center; justify-content: center; margin-top: 20px;">
+            <a href="./index.html" style="color: black; text-decoration: none;">
+                <h1>DINERS</h1>
+            </a>
+        </div>
+        <div class="container-fluid col-sm-4"
+            style="display: flex; align-items: center; justify-content: center; gap: 20px; ">
+            <div class="box" style="border: 1px solid black; border-radius: 50px; padding: 3px;">
+                <a href="" style="color: black;"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <input type="text" placeholder="Search" style="border: none; border-radius: 50px; outline: none;">
+            </div>
+            <a href="" style="color: black;"><i class="fa-regular fa-heart"></i></a>
+            <a href="" style="color: black;"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+    </div>
+    <div class="nav"
+        style=" background-color: black; height: 60px; display: flex; justify-content: center; align-items: center; gap: 10px;">
+        <select name="form-select" aria-label="default-select-example"
+            style="background-color: black; width: 5.30%; color: aliceblue; border: none;">
+            <option selected="NEW IN">NEW IN</option>
+            <option value="1">Men</option>
+            <option value="2">Women</option>
+            <option value="3">Kids</option>
+            <option value="4">Footwear</option>
+            <option value="5">Fragnance</option>
+        </select>
+        <select name="form-select" aria-label="default-select-example"
+            style="background-color: black; width: 4%; color: aliceblue; border: none;">
+            <option selected="MEN">MEN
+            <option value="1">Men Western</option>
+            <option value="2">Men Ethnic</option>
+            <option value="3">Men Accessories</option>
+            </option>
+        </select>
+        <select name="form-select" aria-label="default-select-example"
+            style="background-color: black; width: 6%; color: aliceblue; border: none;">
+            <option selected="WOMEN">WOMEN
+            <option value="1">Collection</option>
+            <option value="2">Ready To Wear</option>
+            <option value="3">Unstitched</option>
+            <option value="4">Separate</option>
+            </option>
+        </select>
+        <select name="form-select" aria-label="default-select-example"
+            style="background-color: black; width: 4%; color: aliceblue; border: none;">
+            <option selected="KIDS">KIDS
+            <option value="1">Boys Ethnic</option>
+            <option value="2">Boys Western</option>
+            <option value="3">Girls Ethnic</option>
+            <option value="4">Girls Western</option>
+            </option>
+        </select>
+        <select name="form-select" aria-label="default-select-example"
+            style="background-color: black; width: 8%; color: aliceblue; border: none;">
+            <option selected="FRAGNANCE">FRAGNANCE
+            <option value="1">For Men</option>
+            <option value="2">For Women</option>
+            </option>
+        </select>
+        <select name="form-select" aria-label="default-select-example"
+            style="background-color: black; width: 7%; color: aliceblue; border: none;">
+            <option selected="FOOTWEAR">FOOTWEAR
+            <option value="1">Men</option>
+            <option value="2">Women</option>
+            </option>
+        </select>
+        <select name="form-select" aria-label="default-select-example"
+            style="background-color: black; color: aliceblue; border: none;">
+            <option selected="WINTER WEAR">WINTER WEAR
+            <option value="1">Sweaters</option>
+            <option value="2">Jackets</option>
+            <option value="3">Hoodies</option>
+            <option value="4">Sweatshirts</option>
+            <option value="5">Casual Bottoms</option>
+            </option>
+        </select>
+        <select name="form-select" aria-label="default-select-example"
+            style="background-color: black; width: 4%; color: aliceblue; border: none;">
+            <option selected="SALE">SALE
+            <option value="1">Men</option>
+            <option value="2">Women</option>
+            <option value="3">Kids</option>
+            <option value="4">Footwear</option>
+            </option>
+        </select>
+        <select name="form-select" aria-label="default-select-example"
+            style="background-color: black; width: 6%; color: aliceblue; border: none;">
+            <option selected="ACCOUNT">ACOUNT
+            <option value="1">Login</option>
+            </option>
+        </select>
+        <select name="form-select" aria-label="default-select-example"
+            style="background-color: black; width: 7.50%; color: aliceblue; border: none; ">
+            <option selected="LOOKBOOK">LOOKBOOK
+            <option value="1">Festive Collection</option>
+            <option value="2">Summer Unstitched Collection</option>
+            <option value="3">Tasavvur Collection</option>
+            <option value="4">Winter Suiting Collection</option>
+            <option value="5">Ethnic Winter Collection</option>
+            <option value="6">Knits Winter Collection</option>
+            <option value="7">Sweater Collection</option>
+            <option value="8">Juniors Winter Collection</option>
+            </option>
+        </select>
+    </div>
+    <a href=""><img src="./assets/Unstitched-web-1440-x-725_1370x.webp" alt="" style="width: 100%;"></a>
+
+    <div class="container">
+        <div class="row" style="display: flex; justify-content: center; align-items: center;">
+            <h3
+                style="display: flex; justify-content: center; margin: 25px; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                WHAT WOULD YOU LIKE TO
+                <br> EXPLORE?
+            </h3>
+        </div>
+        <div class="container-fluid d-flex m-0 p-0" style="justify-content: center;">
+            <div class="container-fluid">
+                <a href=""><img src="./assets/01_c6e5d7dd-1a53-40c9-a60f-f4c591c2e1da_320x.webp" alt=""></a>
+                <a href=""
+                    style="text-decoration: none; color: black; display: flex; justify-content: center; text-align: center; margin-top: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;">MEN
+                    ETHNIC</a>
+            </div>
+            <div class="container-fluid">
+                <a href=""><img src="./assets/02_14fecc62-1d2b-4203-9c54-bf4263c60599_320x.webp" alt=""></a>
+                <a href=""
+                    style="text-decoration: none; color: black; display: flex; justify-content: center; text-align: center; margin-top: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;">MEN
+                    WESTERN</a>
+            </div>
+            <div class="container-fluid">
+                <a href=""><img src="./assets/03_77882f1d-5336-46e7-b838-1c3f3f72ea4b_320x.webp" alt=""></a>
+                <a href=""
+                    style="text-decoration: none; color: black; display: flex; justify-content: center; text-align: center; margin-top: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;">WOMEN</a>
+            </div>
+            <div class="container-fluid">
+                <a href=""><img src="./assets/04_320x.webp" alt=""></a>
+                <a href=""
+                    style="text-decoration: none; color: black; display: flex; justify-content: center; text-align: center; margin-top: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;">KIDS</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-4">
+        <div class="container" style="display: grid; justify-content: center; align-items: center; text-align: center;">
+            <h3>BEST SELLER</h3>
+            <a href="" style="color: black; opacity: 20%;">Discover the limiteds</a>
+        </div>
+    </div>
+    <div class="container-fluid" style="width: 95%;">
+        <div class="container-fluid m-0 p-0 w-100 d-flex" style="gap: 30px;">
+            <div class="container-fluid p1" style="height: 500px;">
+                <div
+                    style="width: 40px; height: 25px; text-align: center; background-color: white; color: black; font-size: smaller; ">
+                    New</div><i class="fa-solid fa-bag-shopping" style="margin-top: 445px; margin-left: 7px;"></i>
+            </div>
+            <div class="container-fluid p2" style="height: 500px;">
+                <div
+                    style="width: 40px; height: 25px; text-align: center; background-color: red; color: white; font-size: smaller;">
+                    -25%</div><i class="fa-solid fa-bag-shopping" style="margin-top: 445px; margin-left: 7px;"></i>
+            </div>
+            <div class="container-fluid p3" style="height: 500px;">
+                <div
+                    style="width: 40px; height: 25px; text-align: center; background-color: red; color: white; font-size: smaller;">
+                    -25%</div><i class="fa-solid fa-bag-shopping" style="margin-top: 445px; margin-left: 7px;"></i>
+            </div>
+            <div class="container-fluid p4" style="height: 500px;">
+                <div
+                    style="width: 40px; height: 25px; text-align: center; background-color: white; color: black; font-size: smaller;">
+                    New</div><i class="fa-solid fa-bag-shopping" style="margin-top: 445px; margin-left: 7px;"></i>
+            </div>
+        </div>
+        <div class="container-fluid w-100 d-flex"
+            style="justify-content: center; text-align: center; gap: 96px; margin-top: 20px;">
+            <div class="t1">
+                <h6>Brown Wash & Wear Shalwar Kameez</h6>
+                <p>Rs 9,490</p>
+            </div>
+            <div class="t2">
+                <h6>Light Beige Wash & Wear Shalwar Kameez</h6>
+                <p style="color: red;"><s style="color: black;">Rs 9,490 </s>Rs 7,118</p>
+            </div>
+            <div class="t3">
+                <h6>black Wash & Wear Shalwar Kameez</h6>
+                <p style="color: red;"><s style="color: black;">11,990 </s>Rs 8,993</p>
+            </div>
+            <div class="t4">
+                <h6>Brown Wash & Wear Shalwar Kameez</h6>
+                <p>Rs 9,490</p>
+            </div>
+        </div>
+        <div class="container d-flex" style="justify-content: center; margin-top: 15px;">
+            <button
+                style="background-color: white; border-radius: 5px; width: 18%; height: 47px; border: 1px solid black;">VIEW
+                ALL PRODUCT</button>
+        </div>
+        <h3 style="display: flex; justify-content: center; margin-top: 15px;">OUR NEW COLLECTION</h3>
+        <a href="" style="display: flex; justify-content: center; color: black; opacity: 20%; margin-top: 10px;">
+            <p>Discover the masterpieces</p>
+        </a>
+    </div>
+    <div class="container-fluid m-0 p-0">
+        <a href="">
+            <div class="suit" style="width: 100%; height: 610px;"></div>
+        </a>
+        <div class="n" style="display: grid; justify-content: center; text-align: center; margin-top: 25px;">
+            <h3>Suiting & Blazer
+            </h3>
+            <a href="" style="color: black; opacity: 20%; margin-top: 10px;">Discover the Collection</a>
+        </div>
+        <div class="container-fluid" style="width: 95%; margin-top: 30px;">
+            <div class="container-fluid m-0 p-0 w-100 d-flex" style=" width: 95%; gap: 30px;">
+                <div class="container-fluid d1" style="height: 500px;">
+                    <div
+                        style="width: 40px; height: 25px; text-align: center; background-color: white; color: black; font-size: smaller; ">
+                        New</div><i class="fa-solid fa-bag-shopping" style="margin-top: 445px; margin-left: 7px;"></i>
+                </div>
+                <div class="container-fluid d2" style="height: 500px;">
+                    <div
+                        style="width: 40px; height: 25px; text-align: center; background-color: white; color:black; font-size: smaller;">
+                        NEW</div><i class="fa-solid fa-bag-shopping" style="margin-top: 445px; margin-left: 7px;"></i>
+                </div>
+                <div class="container-fluid d4" style="height: 500px;">
+                    <div
+                        style="width: 40px; height: 25px; text-align: center; background-color: white; color: black; font-size: smaller;">
+                        New</div><i class="fa-solid fa-bag-shopping" style="margin-top: 445px; margin-left: 7px;"></i>
+                </div>
+                <div class="container-fluid d3" style="height: 500px;">
+                    <div
+                        style="width: 40px; height: 25px; text-align: center; background-color: red; color: white; font-size: smaller;">
+                        -25%</div><i class="fa-solid fa-bag-shopping" style="margin-top: 445px; margin-left: 7px;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid w-90 d-flex" style="justify-content: center; text-align: center; margin-top: 20px;">
+            <div class="container-fluid">
+                <h6>Black Plain Blazer</h6>
+                <p>Rs 22,990</p>
+            </div>
+            <div class="container-fluid">
+                <h6>Formal 2PC Suit</h6>
+                <p>Rs 28,990</p>
+            </div>
+            <div class="container-fluid">
+                <h6>Maroon Formal 2PC Suit</h6>
+                <p>Rs 28,990</p>
+            </div>
+            <div class="container-fluid">
+                <h6>Fawn Formal 2PC Suit</h6>
+                <p style="color: red;"><s style="color: black;">31,990 </s>Rs 23,993</p>
+            </div>
+        </div>
+        <div class="container d-flex" style="justify-content: center; margin-top: 15px;">
+            <button
+                style="background-color: white; border-radius: 5px; width: 18%; height: 47px; border: 1px solid black;">VIEW
+                ALL PRODUCT</button>
+        </div>
+    </div>
+    <div class="container-fluid d-flex"
+        style="width: 100%; justify-content: center; margin-top: 55px; justify-content: space-evenly;">
+        <a href=""><img src="./assets/frag.webp" alt="" style="width: 100%;"></a>
+        <a href=""><img src="./assets/shoe.webp" alt="" style="width: 100%;"></a>
+    </div>
+    <div class="container-fluid d-grid" style="height: 700px; margin-top: 50px;">
+        <div class="h d-grid" style="justify-content: center; text-align: center; margin-top: 30px;">
+            <h4>GET SOME INSPIRATION</h4>
+            <p>#diners</p>
+        </div>
+        <div class="container-fluid d-flex" style="height: 450px; gap: 10px; margin-top: 15px;">
+            <div class="pic1" style="width: 25%;"><a href=""></a></div>
+            <div class="pic2" style="width: 25%;"><a href=""></a></div>
+            <div class="pic3" style="width: 25%;"><a href=""></a></div>
+            <div class="pic4" style="width: 25%;"><a href=""></a></div>
+
+        </div>
+        <div class="container d-flex" style="justify-content: center; margin-top: 10px;">
+            <button
+                style="background-color: white; border-radius: 1px; width: 18%; height: 47px; border: 1px solid black; margin-top: 25px;">VIEW
+                GALLERY</button>
+        </div>
+        <a href=""
+            style="color: black; opacity: 20%; margin-top: 10px; display: flex; justify-content: center; text-align: center;">Accessories
+            & Footwear</a>
+    </div>
+    <div class="container-fluid" style="background-color: rgb(233, 233, 233);">
+        <div class="container-fluid d-grid" style="justify-content: center; text-align: center; margin-top: 4%;">
+            <h3 style="margin-top: 40px;">WHAT COSTUMERS SPEAKS FOR US</h3>
+            <p style="text-decoration: underline;">We Love Trusting Diners</p>
+        </div>
+        <div class="container d-flex"
+            style="height: 305px; justify-content: center; align-items: center; text-align: center;">
+            <div class="container col-sm-3 d-grid">
+                <h6>Umair</h6>
+                <p>The magical Words with multicolour effect attract me very much</p>
+                ⭐⭐⭐⭐⭐
+            </div>
+            <div class="container col-sm-3 d-grid">
+                <h6>Abeer Mirza</h6>
+                <p>Your suits are beautifully and carefully stitched. Thank you for being honest in this meta age. Keep
+                    it up 💪</p>
+                ⭐⭐⭐⭐⭐
+            </div>
+            <div class="container col-sm-3 d-grid">
+                <h6>Ibrar Khan</h6>
+                <p>
+                    A very good stuff. The finishing of the fabric is very decent.
+                </p>
+                ⭐⭐⭐⭐⭐
+            </div>
+            <div class="container col-sm-3 d-grid">
+                <h6>ALI Shehzad</h6>
+                <p>
+                    Great experince as i expected
+                </p>
+                ⭐⭐⭐⭐⭐
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: rgb(36, 36, 36); height: 600px;">
+        <div class="container d-flex m-5">
+            <div class="container d-grid m-5" style="align-items: center;">
+                <h5 style="color: white;">Newsletter</h5>
+                <p style="color: white;">Be the first one to know about discounts, offers and events
+                </p>
+            </div>
+            <div class="container-fluid">
+                <div class="inp m-5" style="border-right: none;">
+                    <input type="text" placeholder="Enter your email"
+                        style="height: 63px; width: 470px; border-radius: 5px;">
+                    <button
+                        style="background-color: black; color: white; border: none; height: 50px; width: 155px; border-radius: 5px;">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="container col-sm-3 d-flex w-100 h-50 px-5" style="justify-content: center;">
+            <div class="foot-mid1 w-50" style="color: white;">
+                <h1>DINERS</h1>
+                <p style="color: rgb(160, 160, 160);">DINERS is a registered trademark of AL BARAKA APPAREL and has been
+                    in the fashion industry since
+                    1990. We believe in satisfying customers through our quality and brilliant customer service</p>
+                <div class="ic d-flex w-100"
+                    style=" height: 50px; gap: 35px; font-size: 20px; justify-content: center;">
+                    <a href="" style="color: white;"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" style="color: white;"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" style="color: white;"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="" style="color: white;"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="con">
+                    <p>How can we Help you, Let us know at</p>
+                    <a href="" style="text-decoration: none; color: white; font-weight: 700;">
+                        <p>cs@diners.com.pk</p>
+                    </a>
+                </div>
+            </div>
+            <div class="foot-mid2 col-sm-3 d-grid" style="color: white; justify-content: center; padding-bottom: 10%;">
+                <h6>Help</h6>
+                <a href="" style="color:rgb(160, 160, 160); text-decoration: none;">
+                    <p>Exchange & Return</p>
+                </a>
+                <a href="" style="color:rgb(160, 160, 160); text-decoration: none;">
+                    <p>Shipping & Handling</p>
+                </a>
+                <a href="" style="color: rgb(160, 160, 160); text-decoration: none;">
+                    <p>Term & Conditions</p>
+                </a>
+                <a href="" style="color: rgb(160, 160, 160); text-decoration: none;">
+                    <p>Privacy Policy</p>
+                </a>
+            </div>
+            <div class="foot-mid3 col-sm-3 d-grid" style="color: white; justify-content: center;  padding-bottom: 10%;">
+                <h6>About</h6>
+                <a href="" style="color: rgb(160, 160, 160); text-decoration: none;">
+                    <p>Corperate Orders</p>
+                </a>
+                <a href="" style="color: rgb(160, 160, 160); text-decoration: none;">
+                    <p>Store Locator</p>
+                </a>
+                <a href="" style="color: rgb(160, 160, 160); text-decoration: none;">
+                    <p>Contact Us</p>
+                </a>
+                <a href="" style="color: rgb(160, 160, 160); text-decoration: none;">
+                    <p>Career</p>
+                </a>
+                <a href="" style="color: rgb(160, 160, 160); text-decoration: none;">
+                    <p>Size Guide</p>
+                </a>
+            </div>
+            <div class="foot-mid4 col-sm-3 d-grid" style="color: white; justify-content: center;  padding-bottom: 10%;">
+                <h6>My Account</h6>
+                <a href="" style="color: rgb(160, 160, 160); text-decoration: none;">
+                    <p>Login</p>
+                </a>
+                <a href="" style="color: rgb(160, 160, 160); text-decoration: none;">
+                    <p>Checkout</p>
+                </a>
+                <a href="" style="color: rgb(160, 160, 160); text-decoration: none;">
+                    <p>FAQs</p>
+                </a>
+            </div>
+        </div>
+        <hr style="color: rgb(83, 83, 83);">
+        <div class="container-fluid col-sm-6 d-flex w-100" style="justify-content: center; align-items: center; justify-content: space-between;">
+            <div class="rights d-flex" style="justify-content: center; align-items: center; margin-left: 80px;">
+                <p style="color: white; margin-left: 50px;">© 2025 Diners. All Rights Reserved. Design & Developed by <a
+                        href="" style="text-decoration: none; color: white;">Mean3 Pvt Ltd</a></p>
+            </div>
+            <div class="pay d-flex" style="justify-content: center; align-items: center;">
+                <img src="./assets/206684_visa_method_card_payment_icon.png" alt=""><img src="./assets/mastercard.svg" alt=""><img
+                    src="./assets/icons8-unionpay-48.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

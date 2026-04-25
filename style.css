@@ -1,0 +1,97 @@
+.p1 {
+  background-image: url(./assets/1.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.p2 {
+  background-image: url(./assets/2.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.p3 {
+  background-image: url(./assets/3.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.p4 {
+  background-image: url(./assets/4.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.suit {
+  background-image: url(./assets/Suiting-_-blazer_1880x.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.d1 {
+  background-image: url(./assets/p1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.d2 {
+  background-image: url(./assets/p2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.d3 {
+  background-image: url(./assets/p4.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.d4 {
+  background-image: url(./assets/p3.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.pic1 {
+  background-image: url(./assets/ins1.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.pic2 {
+  background-image: url(./assets/ins2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.pic3 {
+  background-image: url(./assets/ins3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.pic4 {
+  background-image: url(./assets/ins4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.inp {
+  position: relative;
+  display: inline-block;
+}
+.inp ::placeholder {
+  padding: 20px;
+}
+.inp input {
+  padding-right: 40px;
+}
+.inp button {
+  padding: 10px;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.pay {
+  gap: 10px;
+}
+
+.pay img {
+  width: 6%;
+  height: 5%;
+}
