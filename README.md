@@ -1,1 +1,2 @@
 # DINERS-Clone
+This project is a fully responsive e-commerce frontend website inspired by a fashion brand store. It is built using HTML, CSS, Bootstrap, and Font Awesome. The website includes multiple sections such as navigation bar, product categories, best sellers, new collections, testimonials, and a complete footer. It demonstrates modern UI design, layout structuring, and responsive web development techniques.
